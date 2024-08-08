@@ -1,0 +1,15 @@
+/* Thêm hiệu ứng trượt xuống cho dropdown menu */
+.dropdown-menu {
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-10px);
+  }
+  
+  .nav-item:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
